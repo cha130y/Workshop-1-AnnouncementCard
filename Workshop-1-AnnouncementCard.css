@@ -1,0 +1,32 @@
+.outer-box {
+  background: #f1efef;
+  width: 97vmax;
+  height: 200px;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  border-radius: 30px;
+}
+
+.notice {
+  background: #b4def085;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 20px 5px;
+  width: 525px;
+}
+
+.notice__title {
+  font-weight: bold;
+  color: blue;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.notice__body {
+  color: blue;
+  margin: 10px;
+  padding-left: 10px;
+}
